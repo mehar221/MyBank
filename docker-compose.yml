@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: mybankjdbc
+    image: pbeniwal/mybankjdbc
     ports:
       - "80:8080"
     networks:
