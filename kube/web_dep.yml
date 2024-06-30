@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mybank-jdbc
-        image: pbeniwal/mybankjdbc:v1
+        image: mehar221/my-img
         ports:
         - containerPort: 8080
       restartPolicy: Always
