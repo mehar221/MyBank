@@ -1,0 +1,21 @@
+template:
+  name: stepTemp
+  identifier: stepTemp
+  versionLabel: v1
+  type: Step
+  projectIdentifier: Manisha
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      executionTarget: {}
+      delegateSelectors: []
+      source:
+        type: Inline
+        spec:
+          script: echo "step template"
+      environmentVariables: []
+      outputVariables: []
